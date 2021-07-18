@@ -3,13 +3,26 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@apollo/react-hooks": "^4.0.0",
+    "@material-ui/core": "^4.11.4",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "apollo-boost": "^0.4.9",
+    "axios": "^0.21.1",
+    "graphql": "^15.5.0",
+    "graphql-tag": "^2.12.4",
+    "js-cookie": "^2.2.1",
+    "moment": "^2.29.1",
+    "query-string": "^4.3.4",
     "react": "^17.0.2",
+    "react-awesome-modal": "^2.0.5",
     "react-dom": "^17.0.2",
+    "react-google-recaptcha": "^2.1.0",
     "react-scripts": "4.0.3",
-    "web-vitals": "^1.0.1"
+    "uikit-react": "^3.0.20",
+    "web-vitals": "^1.0.1",
+    "wouter": "^2.7.4"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -34,5 +47,15 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "^3.2.0",
+    "standard-version": "^9.3.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
